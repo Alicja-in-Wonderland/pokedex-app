@@ -16,6 +16,11 @@ body {
     line-height: 1.6;
 }
 
+.list-group-item {
+  background-color: var(--primary-color-lighter);
+  border: none;
+}
+
 .page-header {
     display: flex;
     padding: 10px;
