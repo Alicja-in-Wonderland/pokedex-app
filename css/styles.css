@@ -16,6 +16,14 @@ body {
     line-height: 1.6;
 }
 
+.navbar {
+  background-color: var(--primary-color);
+}
+
+.navbar>.container {
+  justify-content: center;
+}
+
 .list-group-item {
   background-color: var(--primary-color-lighter);
   border: none;
@@ -32,17 +40,6 @@ body {
     cursor: pointer;
     background-color: #FECE0B;
     color: #7644AC;
-}
-
-.page-header {
-    display: flex;
-    padding: 10px;
-    background-color: var(--primary-color);
-}
-.page-header__item {
-    flex: 0 1 250px;
-    margin-left: auto;
-    margin-right: auto;
 }
 
 .pokemon-list {
