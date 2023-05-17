@@ -21,6 +21,11 @@ body {
   border: none;
 }
 
+.btn {
+  color: var(--primary-color-lighter);
+  background-color: var(--secondary-color);
+  width: 100%;
+}
 .page-header {
     display: flex;
     padding: 10px;
@@ -32,7 +37,7 @@ body {
     margin-right: auto;
 }
 
-.pokemonButton {
+/* .pokemonButton {
     border: none;
     background-color: var(--secondary-color);
     color: var(--primary-color-lighter);
@@ -48,7 +53,7 @@ body {
     cursor: pointer;
     background-color: #FECE0B;
     color: #7644AC;
-}
+} */
 
 .pokemon-list {
     list-style-type: none;
