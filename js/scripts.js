@@ -62,7 +62,7 @@ let pokemonRepository = (function () {
             });
         },
 
-        showDetails: function showDetails(pokemon) {
+        showDetails: function (pokemon) {
             pokemonRepository.loadDetails(pokemon).then(function () {
                 pokemonRepository.showModal(pokemon);
             });
