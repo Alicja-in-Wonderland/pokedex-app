@@ -9,10 +9,10 @@ The Pokédex App is a web application that allows users to browse for informatio
 # Technologies Used
 The following technologies were used to develop this app:
 
-JavaScript - used primarily for implementing app logic
-HTML - used for creating the app's structure and content
-CSS - for styling the app 
-Bootstrap - a framework used to ensure responsive design and streamline the development process
+- JavaScript - used primarily for implementing app logic
+- HTML - used for creating the app's structure and content
+- CSS - for styling the app
+- Bootstrap - a framework used to ensure responsive design and streamline the development process
 
 # API Integration
 The app utilises the PokeAPI (https://pokeapi.co/) to retrieve information about Pokémon.
