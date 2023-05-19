@@ -58,6 +58,19 @@ body {
   align-items: center;
 }
 
+.modal-footer {
+  background-color: var(--secondary-color);
+}
+
+.modal-header {
+  background-color: var(--secondary-color);
+  color: #FFFCEE;
+}
+
+.close {
+  color: #FFFCEE;
+}
+
 @media all and (min-width: 2550px) and (max-width: 2850px) {
   .pokemon-list {
     display: grid;
